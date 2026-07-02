@@ -26,7 +26,7 @@ import streamlit as st
 from streamlit.logger import get_logger
 import PyPDF2
 from pinecone import Pinecone
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.document_loaders import PyPDFLoader
 import hashlib
 import openai
